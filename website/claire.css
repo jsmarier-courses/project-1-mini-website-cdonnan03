@@ -1,0 +1,113 @@
+html, body {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Times New Roman', sans-serif;
+    color: navy;
+}
+
+body {
+    background-color: whitesmoke;
+    font-size: 16px;
+}
+
+.top-bar {
+    max-width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+   font-size: 40px;
+   position: absolute;
+   padding: 0px 0px 0px 20px;
+   z-index: 3;
+   color: navy;
+   font-weight: bolder;
+}
+
+.top-menu {
+   background-color: navy;
+   position: absolute;
+   top: 85px;
+   z-index: 2;
+   width: 100%;
+   
+}
+
+.top-menu ul {
+    list-style-type: none;
+    font-size: 20px; 
+    float: right;
+    margin-right: 20px;
+}
+
+.top-menu li {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.top-menu li a:link, .top-menu li a:visited {
+    color: whitesmoke;
+    text-decoration: underline;
+    padding: 20px 20px 20.5px 20px;
+}
+
+.top-menu li a:hover {
+    background-color: purple;
+}
+
+.current-page-link {
+    background-color: purple;
+}
+
+.page-content {
+    position: relative;
+    top: 145px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    z-index: 1;
+}
+
+.main-section {
+    padding: 10px 20px 10px 20px;
+}
+
+.main-section h1, .main-section h2 {
+    color: black;
+}
+
+.main-section figure, .main-section img {
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+
+.footer {
+    position: relative;
+    top: 140px;
+    z-index: 3;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:gray;
+}
+
+.footer-content {
+    padding: 5px 5px 5px 20px;
+    color: whitesmoke;
+}
+
+.footer-content a:link {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+h1 {
+ text-decoration: underline;   
+}
+h2 {
+    text-decoration: underline;
+}
