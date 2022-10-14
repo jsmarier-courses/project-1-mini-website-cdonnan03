@@ -111,3 +111,7 @@ h1 {
 h2 {
     text-decoration: underline;
 }
+image {
+    height: auto;
+    width: auto;
+}
